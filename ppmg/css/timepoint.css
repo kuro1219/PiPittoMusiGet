@@ -1,0 +1,132 @@
+body{
+margin: 0;
+width:100%;
+height: 100%;
+background-image:url("mori2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+font-family:'Nico Moji';
+position: relative;
+}
+
+.title {
+width: 30%;
+background-color: rgba(255,255,255,.3);
+margin-top: 80px;
+border-radius: 30px;
+}
+
+h1{
+width:40%;
+text-align: center;
+font-size: 50px;
+padding:20px;
+margin:130px auto 50px;
+background-color: rgba(255,255,255,.7);
+border-radius: 5px;
+}
+h3{
+width:40%;
+text-align: center;
+padding:15px;
+margin:60px auto 10px;
+background-color: rgba(255,255,255,.7);
+border-radius: 10px;
+font-size: 40px;
+color: rgb(49, 180, 71);
+}
+
+.content {
+background-color: rgb(109, 235, 130,.5);
+color:rgb(0, 0, 0);
+width:350px;
+margin:40px auto 30px;
+padding:20px;
+text-align: center;
+font-size:50px;
+}
+.content p{
+margin:0;
+padding:0;
+}
+
+.button{
+width:100%;
+text-align: center;
+
+}
+
+.buttonbutton{
+width:100%;
+text-align: center;
+}
+button button{
+	border:none;
+	width: 80px;
+	padding:10px 0 10px 0;
+	border-radius: 6px;
+	color:white;
+	background-color: rgba(2, 61, 255, .8);
+	box-shadow:3px 3px 6px rgba(0,0,0,.4);
+	}
+
+
+.buttonbutton button{
+border:none;
+width: 80px;
+padding:10px 0 10px 0;
+border-radius: 6px;
+color:rgb(231, 21, 21);
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow:3px 3px 6px rgba(0,0,0,.4);
+}
+
+#start{
+	display: inline;
+	text-align: center;
+	font-family:'Nico Moji';
+	padding: 10px;
+	border-radius: 50px;
+	background-color: rgba(189, 220, 245, 0.8);
+}
+
+.mushi1 {
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	width: 180px;
+	animation: r3 1s linear infinite alternate;
+	animation-timing-function: steps(2, jump-both);
+}
+ 
+.mushi2 {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 180px;
+	animation: r3 1s linear infinite alternate;
+	animation-timing-function: steps(2, jump-both);
+}
+.mushi3 {
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 180px;
+	animation: r3 1s linear infinite alternate;
+	animation-timing-function: steps(2, jump-both);
+}
+.mushi4 {
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	width: 180px;
+	animation: r3 1s linear infinite alternate;
+	animation-timing-function: steps(2, jump-both);
+}
+
+@keyframes r3 {
+	0%   { transform: rotate(-30deg); }
+  100% { transform: rotate(30deg); }
+}
+
